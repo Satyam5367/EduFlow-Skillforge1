@@ -4,10 +4,9 @@ import { Link } from 'react-router-dom';
 import { userAPI } from '../../services/api.service';
 import CourseCard from '../../components/student/CourseCard';
 import Loader from '../../components/common/Loader';
-import { useAuth } from '../../context/AuthContext';
+
 
 export default function Wishlist() {
-  const { user, updateUser } = useAuth();
   const [wishlist, setWishlist] = useState([]);
   const [loading, setLoading]   = useState(true);
 
