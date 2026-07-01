@@ -112,13 +112,22 @@ exports.createCourse = asyncHandler(async (req, res) => {
     description,
     category,
     level,
-    price:            Number(price) || 0,
-    instructor:       req.user._id,
-    requirements:     requirements ? JSON.parse(requirements) : [],
+    price: Number(price) || 0,
+    instructor: req.user._id,
+
+    status: "published",
+    isApproved: true,
+
+    requirements: requirements ? JSON.parse(requirements) : [],
     learningOutcomes: learningOutcomes ? JSON.parse(learningOutcomes) : [],
-    tags:             tags ? JSON.parse(tags) : [],
-    thumbnail:        req.file ? { public_id: req.file.filename, url: req.file.path } : undefined,
-  });
+    tags: tags ? JSON.parse(tags) : [],
+    thumbnail: req.file
+        ? {
+            public_id: req.file.filename,
+            url: req.file.path
+          }
+        : undefined,
+});
 
   res.status(201).json({ success: true, data: course, message: 'Course created successfully' });
 });
