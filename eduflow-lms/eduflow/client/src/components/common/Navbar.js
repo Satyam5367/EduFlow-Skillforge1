@@ -2,14 +2,17 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import {
-  FiSearch, FiMenu, FiX, FiBell, FiBook,
-  FiUser, FiSettings, FiLogOut, FiBarChart2,
-  FiPlusCircle, FiHome, FiShield,
-} from 'react-icons/fi';
-
+  FiSearch,
+  FiBook,
+  FiUser,
+  FiLogOut,
+  FiBarChart2,
+  FiPlusCircle,
+  FiShield,
+} from "react-icons/fi";
 export default function Navbar() {
   const { user, isAuthenticated, logout, isInstructor, isAdmin } = useAuth();
-  const [open, setOpen]       = useState(false);
+  const [, setOpen]       = useState(false);
   const [dropdown, setDropdown] = useState(false);
   const [search, setSearch]   = useState('');
   const [scrolled, setScrolled] = useState(false);
