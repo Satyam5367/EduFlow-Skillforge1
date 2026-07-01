@@ -19,7 +19,7 @@
 | Page | Preview |
 |---|---|
 | 🏠 **Landing Page** — Hero, categories, featured courses | ![Home](home_page.png) |
-| 📚 **Course Catalog** — Filters, search, pagination | ![Courses](docs/screenshots/courses.png) |
+| 📚 **Course Catalog** — Filters, search, pagination | ![Courses](courses_all.png) |
 | 🎬 **Course Detail** — Curriculum, reviews, Razorpay checkout | ![Detail](docs/screenshots/course-detail.png) |
 | 🎥 **Learn Page** — Video player + AI quiz sidebar | ![Learn](docs/screenshots/learn.png) |
 | 👨‍🏫 **Instructor Dashboard** — Revenue charts, course management | ![Instructor](docs/screenshots/instructor.png) |
