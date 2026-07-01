@@ -3,7 +3,7 @@ import { paymentAPI } from '../../services/api.service';
 import Loader from '../../components/common/Loader';
 import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip,
-  ResponsiveContainer, BarChart, Bar, Legend,
+  ResponsiveContainer, BarChart, Bar,
 } from 'recharts';
 import { FiDollarSign, FiUsers, FiTrendingUp, FiCalendar } from 'react-icons/fi';
 
