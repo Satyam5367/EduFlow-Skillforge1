@@ -61,7 +61,7 @@ export default function ManageUsers() {
     }
   };
 
-  const roleColors = { admin:'badge-danger', instructor:'badge-warning', student:'badge-primary' };
+  
 
   return (
     <div style={{ padding:'2rem 0' }}>
