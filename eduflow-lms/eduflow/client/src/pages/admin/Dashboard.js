@@ -4,11 +4,11 @@ import { adminAPI } from '../../services/api.service';
 import Loader from '../../components/common/Loader';
 import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip,
-  ResponsiveContainer, PieChart, Pie, Cell, Legend,
+  ResponsiveContainer, PieChart, Pie, Cell,
 } from 'recharts';
 import {
   FiUsers, FiBook, FiDollarSign, FiTrendingUp,
-  FiShield, FiAlertCircle, FiCheckCircle, FiClock,
+  FiShield,  FiCheckCircle, 
 } from 'react-icons/fi';
 
 const MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
