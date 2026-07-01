@@ -13,7 +13,7 @@
 
 ## 📸 Screenshots
 
-> **Live Demo:** [eduflow-demo.vercel.app](https://eduflow-demo.vercel.app)  
+> **Live Demo:** [eduflow-demo.vercel.app](https://edu-flow-skillforge1-8w0e20pg8-satyam5367s-projects.vercel.app/)  
 > **API Docs:** [eduflow-api.onrender.com/api-docs](https://eduflow-api.onrender.com/api-docs)
 
 | Page | Preview |
