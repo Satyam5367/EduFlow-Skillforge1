@@ -25,7 +25,7 @@
 | 👨‍🏫 **Instructor Dashboard** — Course management, analytics & revenue tracking | ![Instructor](docs/screenshots/instructor_dashboard.png)<br><br>![Revenue](docs/screenshots/revenue_dashboard.png) |
 | 💳 **Secure Checkout** — Razorpay payment gateway, coupon support & payment confirmation | ![Checkout](docs/screenshots/razorpay_checkout.png)<br><br>![Success](docs/screenshots/payment_success.png) |
 | 🛡️ **Admin Panel** — Analytics, user & course moderation | ![Admin](docs/screenshots/admin.png) |
-| 📖 **Swagger API Docs** — Full interactive documentation | ![Swagger](docs/screenshots/swagger.png) |
+| 📖 **Swagger API Docs** — Full interactive documentation | ![1](docs/screenshots/swagger1.png)<br><br>![2](docs/screenshots/swagger2.png)<br><br>![3](docs/screenshots/swagger3.png)<br><br>![4](docs/screenshots/swagger4.png)<br><br>![5](docs/screenshots/swagger5.png)<br><br>![6](docs/screenshots/swagger6.png)<br><br>![7](docs/screenshots/swagger7.png) |
 
 > 💡 **To add real screenshots:** Run the project locally, take screenshots, and save them to `docs/screenshots/`.
 
