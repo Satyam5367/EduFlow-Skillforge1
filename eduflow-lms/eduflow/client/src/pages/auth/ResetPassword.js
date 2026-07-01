@@ -1,6 +1,6 @@
 // ResetPassword.js
 import React, { useState } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { authAPI } from '../../services/api.service';
 import { toast } from 'react-toastify';
 import { FiLock, FiEye, FiEyeOff } from 'react-icons/fi';
