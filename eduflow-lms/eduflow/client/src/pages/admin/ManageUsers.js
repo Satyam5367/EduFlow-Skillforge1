@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { adminAPI } from '../../services/api.service';
 import Loader from '../../components/common/Loader';
 import { toast } from 'react-toastify';
-import { FiSearch, FiTrash2, FiShield, FiUser, FiBook } from 'react-icons/fi';
+import { FiSearch, FiTrash2 } from 'react-icons/fi';
 
 export default function ManageUsers() {
   const [users, setUsers]   = useState([]);
