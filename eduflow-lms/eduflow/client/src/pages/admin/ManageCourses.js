@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { adminAPI } from '../../services/api.service';
 import Loader from '../../components/common/Loader';
 import { toast } from 'react-toastify';
-import { FiSearch, FiCheck, FiX, FiEye, FiFilter } from 'react-icons/fi';
+import { FiSearch, FiCheck, FiX, FiEye } from 'react-icons/fi';
 
 export default function ManageCourses() {
   const [courses, setCourses] = useState([]);
